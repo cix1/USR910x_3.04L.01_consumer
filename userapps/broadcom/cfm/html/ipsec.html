@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+	(c) 2006 U.S. Robotics Corporation
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>Internet &raquo; VPN</title>
+	<link href="usr_menus.css" rel="stylesheet" type="text/css">
+	<script src="usr_menus.js" type="text/javascript"></script>
+	<script src="usr_menus_build.js" type="text/javascript"></script>
+	<link href="usr_main.css" rel="stylesheet" type="text/css">
+	<script src="usr_common.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="util.js"></script>
+  <script type="text/javascript">
+<!-- hide
+
+function addClick() {
+   var loc = 'ipsec.cmd?action=add';
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+function editClick(index) {
+   var loc = 'ipsec.cmd?action=edit&index=' + index;
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+function removeClick(index) {
+   var loc = 'ipsec.cmd?action=delete&index=' + index;
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+function enClick(index, item) {
+   var cv;
+   if (item.checked) {
+   	  cv = "1";
+   }
+   else {
+      cv = "0";
+   }
+   item.checked = !item.checked;
+   var loc = 'ipsec.cmd?action=enchange&index=' + index +'&en=' + cv;
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+// done hiding -->
+</script>
+
+</head>
+<body onload="initMenu();">
+
+<script type="text/javascript">
+	setPageTitle("<%ejGetWlJS(wlInterface)%>");        
+	writeHeader("Internet");
+</script>
+
+<h3>VPN IPSec Tunnel Connections</h3>
+
+<p>Add, edit, or remove IPSec tunnel mode connections from this page.</p>
+
+<form>
+<table border="1" cellspacing="0">
+	<tr>
+		<th>Enable</th>
+		<th>Connection Name</th>
+		<th>Remote Gateway</th>
+		<th>Local Addresses</th>
+		<th>Remote Addresses</th>
+		<th>Connection Status</th>
+		<th>&nbsp;</th>
+	</tr>
+	<%ejGetStr(ipsecTable)%>
+
+</table>
+
+<p><input value="Add New Connection" type="button" onclick="addClick();"></p>
+</form>
+
+<script type="text/javascript">
+	writeFooter();
+</script>
+
+</body>
+</html>

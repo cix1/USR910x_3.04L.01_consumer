@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+	(c) 2006 U.S. Robotics Corporation
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<title>Import Certificate</title>
+	<link href="usr_menus.css" rel="stylesheet" type="text/css">
+	<script src="usr_menus.js" type="text/javascript"></script>
+	<script src="usr_menus_build.js" type="text/javascript"></script>
+	<link href="usr_main.css" rel="stylesheet" type="text/css">
+	<script src="usr_common.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="util.js"></script>
+  <script type="text/javascript">
+<!-- hide
+
+var certstart = '-----BEGIN CERTIFICATE-----';
+var certinsert = '\n<insert certificate here>\n';
+var certend = '-----END CERTIFICATE-----';
+
+function frmLoad() {
+  document.importForm.action = 'certca.cmd?action=import';
+  with ( document.forms[0] ) {
+    certPublic.value = certstart + certinsert + certend + '\n';
+  }
+}
+
+function applyClick() {
+  var idx;
+
+  with ( document.forms[0] ) {
+    if ( certName.value == '' ) {
+      alert('Please enter a certificate name.');
+      return;
+    }
+    if ( certPublic.value == '' ) {
+      alert('Please enter a certificate public key.');
+      return;
+    }
+  }
+  document.importForm.submit();
+}
+// done hiding -->
+	</script>
+</head>
+
+<body onload="initMenu(); frmLoad();">
+
+<script type="text/javascript">
+	setPageTitle("<%ejGetWlJS(wlInterface)%>");
+	writeHeader("Import Certificate");
+</script>
+
+<h3>Import CA Certificate</h3>
+
+<form name="importForm" method="post">
+
+<p>Enter the certificate name and certificate content.</p>
+
+<p><label for="certName">Certificate name:</label>
+	<input type='text' name='certName' size='20' maxlength="63"></p>
+
+<p><label for="certPublic">Certificate:</label></p>
+<p><TEXTAREA name='certPublic' rows='20' cols='80'></TEXTAREA></td></p>
+
+<p><input type='button' value="Import" onclick="applyClick()"></p>
+
+</form>
+
+<script type="text/javascript">
+	writeFooter();
+</script>
+
+</body>
+</html>

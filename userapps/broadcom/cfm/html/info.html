@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+	(c) 2005 U.S. Robotics Corporation
+-->
+<html>
+<head>
+	<title>Status &raquo; General</title>
+
+	<link href="usr_menus.css" rel="stylesheet" type="text/css">
+	<link href="usr_menus.css" rel="stylesheet" type="text/css"><script src="usr_menus.js" type="text/javascript"></script><script src="usr_menus_build.js" type="text/javascript"></script>
+	<script src="usr_menus_build.js" type="text/javascript"></script>
+	<link href="usr_main.css" rel="stylesheet" type="text/css">
+	<script src="usr_common.js" type="text/javascript"></script>
+
+   <meta http-equiv="Pragma" content="no-cache">
+
+<script type="text/javascript">
+setPageTitle("<%ejGetWlJS(wlInterface)%>");
+
+function initializePage()
+{
+	initializeSecurity("<%ejGetWlJS(wlAuthMode)%>", "<%ejGetWlJS(wlWep)%>");
+}
+
+function getMACfilterWireless()
+{
+	switch ("<%ejGetWlJS(wlFltMacMode)%>")
+	{
+		case "disabled":
+			return "Allow all";
+		case "allow":
+			return "Allow some";
+		default:
+			return "Deny some";
+	}
+}
+</script>
+</head>
+<body onload="initMenu(); setVisibility('idWireless', '<%ejGetWlJS(wlInterface)%>' == '1'); initializePage();">
+
+<script type="text/javascript">
+	writeHeader("Status");
+</script>
+
+<noscript>
+	<p class="clsNotice">The U.S. Robotics Wireless <i>MAX</i>g VoIP Router
+	uses scripting to display its data correctly.
+	This browser either doesn&rsquo;t support scripting or has
+	scripting disabled. Please refer to your browser&rsquo;s documentation for instructions
+	on how to enable scripting.
+	</p>
+</noscript>
+
+
+<div id="idHelpOpen" style="display: none;" onclick="setVisibility('idHelpOpen', false); setVisibility('idPanelHelp', true);">?</div>
+<div id="idPanelHelp">
+
+   <div id="idHelpClose" onclick="setVisibility('idPanelHelp', false); setVisibility('idHelpOpen', true);">x</div>
+
+	<p class="clsNote">
+		<a href="javascript:print();">Print</a> this page
+		<br/>
+		<a href="http://www.usr.com/productreg/">Register</a> this product
+	</p>
+
+<script type="text/javascript">
+	if ("<%ejGetWlJS(wlInterface)%>" == "1")
+		document.write("<p class=\"clsNote\">Tutorial: How do I add a <a href=\"tutorial_addclient.html\">new wireless client<\/a> to my network?<\/p>");
+</script>
+
+	<h1>Updates</h1>
+	<p>Visit the <a href="http://www.usr.com/support/" target="_new">U.S.&nbsp;Robotics
+	Web site</a> to check for updated firmware.</p>
+
+	<h1>Refresh</h1>
+	<p>Press your browser&rsquo;s <b>Refresh</b> button to display the latest values.</p>
+
+	<h1>Features</h1>
+	<p><a href="purchase.html">Purchase</a> additional features.</p>
+	<p><a href="ipsunlock.cmd">Unlock</a> purchased features.</p>
+
+</div>
+
+
+<h3>Device</h3>
+
+<table border="0">
+   <tr>
+      <td><label>Name:</label></td>
+      <td class="clsStatic">
+<script type="text/javascript">
+	document.write(getProductNameHTML("<%ejGetWlJS(wlInterface)%>"));
+</script>
+      </td>
+   </tr>
+
+   <tr>
+      <td><label>Version:</label></td>
+      <td class="clsStatic"><%ejGetHTML(sysBuildVersion)%>
+<script type="text/javascript">
+	var ver = "<%ejGetJS(sysVersion)%>";
+	var strTime = ver.substring(0, 4);
+	var strDate = ver.substring(5, 11);
+	var dt = new Date(2000 + new Number(strDate.substring(4, 6)).valueOf(), strDate.substring(0, 2) - 1, strDate.substring(2, 4),
+							strTime.substring(0, 2), strTime.substring(2, 4));
+	document.write(" (" + dt.toLocaleString() + ")");
+</script>
+      </td>
+   </tr>
+
+   <tr>
+      <td><label></label></td>
+      <td class="clsStatic"><%ejGetHTML(sysVersion)%></td>
+   </tr>
+
+	<tr>
+		<td><label>Printer status:</label></td>
+		<td class="clsStatic"><%ejGetIppHTML(ippStatus)%></td>
+	<tr>
+	</tr>
+		<td><label>Printer location:</label></td>
+		<td class="clsStatic">http://<%ejGetHTML(ethIpAddress)%>:1631/printers/<%ejGetIppHTML(ippName)%></td>
+	</tr>
+</table>
+
+
+<h3>DSL</h3>
+
+<table border="0">
+   <tr>
+      <td><label>Line rate - upstream:</label></td>
+      <td class="clsStatic"><%ejGetOther(lineRate, 0)%> Kbps</td>
+   </tr>
+   <tr>
+      <td><label>Line rate - downstream:</label></td>
+      <td class="clsStatic"><%ejGetOther(lineRate, 1)%> Kbps</td>
+   </tr>
+   <tr>
+      <td><label>LAN IP address:</label></td>
+      <td class="clsStatic"><%ejGetOther(sysInfo, lanAddr)%></td>
+   </tr>
+   <tr>
+      <td><label>WAN IP address:</label></td>
+      <td><!--<%ejGetOther(memInfo, wanAddr)%>--><a href="wancfg.cmd?action=view">View</a></td>
+   </tr>
+   <tr>
+      <td><label>Default gateway:</label></td>
+      <td class="clsStatic"><%ejGetOther(sysInfo, dfltGw)%></td>
+   </tr>
+   <tr>
+      <td><label>Primary DNS server:</label></td>
+      <td class="clsStatic"><%ejGetOther(sysInfo, dns)%></td>
+   </tr>
+   <tr>
+      <td><label>Secondary DNS server:</label></td>
+      <td class="clsStatic"><%ejGetOther(sysInfo, dns2)%></td>
+   </tr>
+</table>
+
+
+<div id="idWireless">
+
+<h3>Wireless Security</h3>
+
+<table border="0">
+   <tr>
+   	<td><label>Network name:</label></td>
+   	<td class="clsStatic"><%ejGetWlHTML(wlSsid)%></td>
+   </tr>
+   <tr>
+   	<td><label>Broadcast name:</label></td>
+   	<td class="clsStatic">
+<script type="text/javascript">
+			if ("<%ejGetWlJS(wlHide)%>" != "")
+				document.write(parseInt("<%ejGetWlJS(wlHide)%>") ? "Disabled" : "Enabled");
+</script>
+		</td>
+	</tr>
+	<tr>
+		<td><label>MAC address:</label></td>
+		<td class="clsStatic"><%ejGetWlHTML(wlBssid)%></td>
+	</tr>
+	<tr>
+		<td><label>Method:</label></td>
+		<td class="clsStatic"><script type="text/javascript">document.write(getSecurityMethod("<%ejGetWlJS(wlAuthMode)%>", "<%ejGetWlJS(wlWep)%>"));</script></td>
+	</tr>
+	<tr id="idEncrypt" style="display: none;">
+		<td><label>Encryption:</label></td>
+		<td class="clsStatic"><script type="text/javascript">document.write(getEncryption("<%ejGetWlJS(wlWpa)%>"));</script></td>
+	</tr>
+	<tr id="idKeyWPA" style="display: none;">
+		<td><label>Pass phrase:</label></td>
+		<td class="clsStatic"><%ejGetWlHTML(wlWpaPsk)%></td>
+	</tr>
+	<tr id="idRADIUSkey" style="display: none;">
+		<td><label>RADIUS key:</label></td>
+		<td class="clsStatic"><%ejGetWlHTML(wlRadiusKey)%></td>
+	</tr>
+	<tr id="idKeyWEP" style="display: none;">
+		<td><label>Key:</label></td>
+		<td class="clsStatic"><script type="text/javascript">document.write(getWEPkey("<%ejGetWlJS(wlKeyIndex)%>", "<%ejGetWlJS(wlKey1)%>", "<%ejGetWlJS(wlKey2)%>", "<%ejGetWlJS(wlKey3)%>", "<%ejGetWlJS(wlKey4)%>"));</script></td>
+	</tr>
+	<tr>
+		<td><label>Wireless MAC filter:</label></td>
+		<td class="clsStatic"><script type="text/javascript">document.write(getMACfilterWireless());</script></td>
+	</tr>
+</table>
+
+</div>
+
+<!--
+   <tr>
+   	<td><label>LAN MAC filter:</label></td>
+   	<td class="clsStatic">
+   	</td>
+   </tr>
+
+
+<h3>Dynamic DNS</h3>
+
+<table border="0">
+   <tr>
+      <td><label>Provider:</label></td>
+      <td class="clsStatic"></td>
+   </tr>
+</table>
+-->
+
+
+<script type="text/javascript">
+	writeFooter();
+</script>
+
+</body>
+</html>

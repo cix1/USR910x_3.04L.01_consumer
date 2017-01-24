@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+   (c) 2004-2006 U.S. Robotics Corporation.
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Purchase</title>
+	<link href="usr_main.css" rel="stylesheet" type="text/css">
+	<script src="usr_common.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	setPageTitle("<%ejGetWlJS(wlInterface)%>");
+	writeHeaderInfo("Purchase Features");
+</script>
+
+<p>In order to enable the router to establish VPN connections, you need to purchase
+the VPN feature from U.S.&nbsp;Robotics.</p>
+
+<form name="idForm0" method="post" action="http://usr.com/upgrade/index.asp">
+<input type="hidden" name="modelNum" id="modelNum" value="USR9108">
+<input type="hidden" name="MAC" id="MAC" value="<%ejGetOther(sysInfo,macAddress)%>">
+<p><input type="submit" class="clsBtnFeature" value="Purchase"></p>
+</form>
+
+<p>If you&rsquo;ve already purchased the VPN feature, please press the <b>Unlock</b>
+button so that the router can unlock it. The router will contact the U.S.&nbsp;Robotics
+Web site in order to confirm your purchase. Please note that the router <b>does not</b>
+send any personal information. The only information it sends is the MAC address of
+the device.</p>
+
+<p><input type="button" class="clsBtnFeature" value="  Unlock  "
+	onclick="location='ipsunlock.cmd';"></p>
+<p><a href="info.html">Back to the Status page</a></p>
+
+<script type="text/javascript">
+	writeFooter();
+</script>
+
+</body>
+</html>

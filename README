@@ -1,0 +1,17 @@
+Follow the instructions below to create and download the image into your
+Wireless Gateway or 4-Port Router.
+
+Note: To build the image you have to use Red Hat Linux 9 OS.
+Login as a root in order to successfully complete the build process.
+
+1. Run the script consumer_install from the temporary directory
+   where you have extracted the downloaded file USR910*.tar.gz.
+2. From the directory containing the source code, build the new USR910x image:
+   cd /opt/USR910x_router
+   make PROFILE=96348GW[B] to build USR9108 AnnexA [AnnexB] image or
+   make PROFILE=96348R[B] to build USR9107 AnnexA [AnnexB] image.
+3. Upload the USR96348GW[B]_fs_kernel image into USR9108 Gateway from the
+   /opt/USR910x_router/targets/96348GW[B] folder or
+   upload the USR96348R[B]_fs_kernel image into USR9107 Router from the
+   /opt/USR910x_router/targets/96348R[B] folder.
+

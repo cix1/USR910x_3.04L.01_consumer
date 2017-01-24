@@ -1,0 +1,1061 @@
+/opt/gpl/labatt/userapps/opensource/busybox/applets/applets.o: /opt/gpl/labatt/userapps/opensource/busybox/applets/applets.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/usage.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/usage.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/applets.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/applets.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/applets.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/applets.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/suid.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/suid/config.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/suid/config/quiet.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/file.h)
+/opt/gpl/labatt/userapps/opensource/busybox/applets/busybox.o: /opt/gpl/labatt/userapps/opensource/busybox/applets/busybox.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/installer.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/init.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/autowidth.h)
+/opt/gpl/labatt/userapps/opensource/busybox/insmod.o: /opt/gpl/labatt/userapps/opensource/busybox/insmod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/ledctrl.o: /opt/gpl/labatt/userapps/opensource/busybox/ledctrl.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/login.o: /opt/gpl/labatt/userapps/opensource/busybox/login.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/ping.o: /opt/gpl/labatt/userapps/opensource/busybox/ping.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/archive_xread_all.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/archive_xread_all.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/archive_xread_all_eof.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/archive_xread_all_eof.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/check_header_gzip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/check_header_gzip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_align.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_align.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_all.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_all.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_to_buffer.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_to_buffer.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_to_stdout.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_extract_to_stdout.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_skip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/data_skip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_bunzip2.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_bunzip2.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_uncompress.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_uncompress.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_unzip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/decompress_unzip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_all.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_all.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_list.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_list.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_list_reassign.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_list_reassign.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_reject_list.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/filter_accept_reject_list.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/find_list_entry.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/find_list_entry.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_ar.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_ar.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ar/long/filenames.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_cpio.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_cpio.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/oldgnu/compatability.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar_bz2.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar_bz2.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar_gz.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/get_header_tar_gz.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_list.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_list.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_skip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_skip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_verbose_list.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/header_verbose_list.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/init_handle.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/init_handle.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/open_transformer.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/open_transformer.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/seek_by_char.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/seek_by_char.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/seek_by_jump.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/seek_by_jump.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/unarchive/tape.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/unpack_ar_archive.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/libunarchive/unpack_ar_archive.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/ar.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/ar.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/bunzip2.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/bunzip2.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/cpio.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/cpio.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/dpkg.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/dpkg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/dpkg_deb.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/dpkg_deb.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/gunzip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/gunzip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/gunzip/uncompress.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/gzip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/gzip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/gunzip.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/rpm.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/rpm.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/rpm2cpio.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/rpm2cpio.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/tar.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/tar.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/create.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/from.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/gzip.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/compress.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/bzip2.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tar/long/options.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/uncompress.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/uncompress.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h)
+/opt/gpl/labatt/userapps/opensource/busybox/archival/unzip.o: /opt/gpl/labatt/userapps/opensource/busybox/archival/unzip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/chvt.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/chvt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/clear.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/clear.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/deallocvt.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/deallocvt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/dumpkmap.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/dumpkmap.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/loadfont.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/loadfont.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/loadkmap.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/loadkmap.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/openvt.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/openvt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/reset.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/reset.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/console-tools/setkeycodes.o: /opt/gpl/labatt/userapps/opensource/busybox/console-tools/setkeycodes.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/cp_mv_stat.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/cp_mv_stat.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/basename.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/basename.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/cal.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/cal.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/cat.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/cat.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/chgrp.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/chgrp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/chmod.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/chmod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/chown.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/chown.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/chroot.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/chroot.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/cmp.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/cmp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/cp.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/cp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/cut.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/cut.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/date.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/date.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/date/isofmt.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/dd.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/dd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/df.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/df.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/human/readable.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/dirname.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/dirname.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/dos2unix.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/dos2unix.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/du.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/du.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/human/readable.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/echo.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/echo.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/echo.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/env.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/env.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/expr.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/expr.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/false.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/false.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/fold.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/fold.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/head.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/head.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/head.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/hostid.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/hostid.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/id.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/id.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/install.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/install.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/length.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/length.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/ln.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/ln.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/logname.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/logname.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/ls.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/ls.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/timestamps.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/sortfiles.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/followlinks.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/human/readable.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/filetypes.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/color.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/autowidth.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/recursive.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ls/username.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/md5_sha1_sum.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/md5_sha1_sum.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/md5sum.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/sha1sum.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/mkdir.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/mkdir.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/mkfifo.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/mkfifo.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/mknod.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/mknod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/mv.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/mv.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/od.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/od.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/dump.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/dump.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/printf.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/printf.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/pwd.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/pwd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/realpath.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/realpath.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/rm.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/rm.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/rmdir.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/rmdir.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/seq.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/seq.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/sleep.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/sleep.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/sleep.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/sort.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/sort.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/stty.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/stty.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/sync.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/sync.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/tail.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/tail.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/tail.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/tee.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/tee.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tee/use/block/io.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/test.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/test.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/test/64.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/touch.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/touch.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/tr.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/tr.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/true.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/true.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/tty.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/tty.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/uname.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/uname.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/uniq.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/uniq.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/usleep.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/usleep.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/uudecode.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/uudecode.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/uuencode.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/uuencode.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/watch.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/watch.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/wc.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/wc.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/who.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/who.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/whoami.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/whoami.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/coreutils/yes.o: /opt/gpl/labatt/userapps/opensource/busybox/coreutils/yes.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/mktemp.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/mktemp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/pipe_progress.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/pipe_progress.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/readlink.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/readlink.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/run_parts.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/run_parts.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/start_stop_daemon.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/start_stop_daemon.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/debianutils/which.o: /opt/gpl/labatt/userapps/opensource/busybox/debianutils/which.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/editors/awk.o: /opt/gpl/labatt/userapps/opensource/busybox/editors/awk.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/awk/math.h)
+/opt/gpl/labatt/userapps/opensource/busybox/editors/patch.o: /opt/gpl/labatt/userapps/opensource/busybox/editors/patch.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/editors/sed.o: /opt/gpl/labatt/userapps/opensource/busybox/editors/sed.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/editors/vi.o: /opt/gpl/labatt/userapps/opensource/busybox/editors/vi.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/use/signals.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/crashme.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/dot/cmd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/yankmark.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/readonly.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/search.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/colon.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/win/resize.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/setopts.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/vi/set.h)
+/opt/gpl/labatt/userapps/opensource/busybox/findutils/find.o: /opt/gpl/labatt/userapps/opensource/busybox/findutils/find.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/type.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/perm.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/mtime.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/xdev.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/newer.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/find/inum.h)
+/opt/gpl/labatt/userapps/opensource/busybox/findutils/grep.o: /opt/gpl/labatt/userapps/opensource/busybox/findutils/grep.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/grep/context.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/grep/egrep/alias.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/findutils/xargs.o: /opt/gpl/labatt/userapps/opensource/busybox/findutils/xargs.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/xargs/support/quotes.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/xargs/support/termopt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/halt.o: /opt/gpl/labatt/userapps/opensource/busybox/init/halt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/init.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/init.o: /opt/gpl/labatt/userapps/opensource/busybox/init/init.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/syslogd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/init/coredumps.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/extra/quiet.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/use/inittab.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/initrd.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/init_shared.o: /opt/gpl/labatt/userapps/opensource/busybox/init/init_shared.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/initrd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/init.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/mesg.o: /opt/gpl/labatt/userapps/opensource/busybox/init/mesg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/poweroff.o: /opt/gpl/labatt/userapps/opensource/busybox/init/poweroff.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/init.h)
+/opt/gpl/labatt/userapps/opensource/busybox/init/reboot.o: /opt/gpl/labatt/userapps/opensource/busybox/init/reboot.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/init.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/ask_confirmation.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/ask_confirmation.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/bb_asprintf.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/bb_asprintf.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/change_identity.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/change_identity.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/chomp.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/chomp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/concat_path_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/concat_path_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/concat_subpath_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/concat_subpath_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/copy_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/copy_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/preserve/hardlinks.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/copyfd.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/copyfd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/correct_password.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/correct_password.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/create_icmp6_socket.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/create_icmp6_socket.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/create_icmp_socket.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/create_icmp_socket.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/default_error_retval.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/default_error_retval.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/device_open.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/device_open.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/dump.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/dump.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/dump.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/dump.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/error_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/error_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/error_msg_and_die.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/error_msg_and_die.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/fclose_nonstdin.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/fclose_nonstdin.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/fflush_stdout_and_exit.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/fflush_stdout_and_exit.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/fgets_str.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/fgets_str.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/find_mount_point.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/find_mount_point.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/find_pid_by_name.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/find_pid_by_name.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/find_root_device.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/find_root_device.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/devfs.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/full_read.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/full_read.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/full_write.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/full_write.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/get_console.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/get_console.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/get_line_from_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/get_line_from_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/get_terminal_width_height.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/get_terminal_width_height.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/autowidth.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/getopt_ulflags.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/getopt_ulflags.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/hash_fd.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/hash_fd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/sha1sum.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/md5sum.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/herror_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/herror_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/herror_msg_and_die.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/herror_msg_and_die.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/human_readable.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/human_readable.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/inet_common.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/inet_common.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/inode_hash.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/inode_hash.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/interface.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/interface.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/isdirectory.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/isdirectory.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/kernel_version.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/kernel_version.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/last_char_is.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/last_char_is.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/llist_add_to.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/llist_add_to.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/unarchive.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/login.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/login.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/loop.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/loop.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/make_directory.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/make_directory.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/messages.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/messages.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/module_syscalls.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/module_syscalls.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/mtab.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/mtab.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/mtab_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/mtab_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mtab/filename.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getgrgid.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getgrgid.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getgrnam.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getgrnam.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getpwnam.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getpwnam.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getpwuid.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getpwuid.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getug.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/my_getug.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/obscure.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/obscure.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/parse_mode.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/parse_mode.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/parse_number.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/parse_number.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_msg_and_die.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_msg_and_die.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_nomsg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_nomsg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_nomsg_and_die.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/perror_nomsg_and_die.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/print_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/print_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/printf.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/printf.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/process_escape_sequence.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/process_escape_sequence.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/procps.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/procps.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/pw_encrypt.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/pw_encrypt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sha1/passwords.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/pwd2spwd.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/pwd2spwd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/shadow_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/shadow_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/qmodule.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/qmodule.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/read_package_field.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/read_package_field.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/recursive_action.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/recursive_action.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/remove_file.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/remove_file.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/restricted_shell.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/restricted_shell.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/run_parts.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/run_parts.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/run_shell.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/run_shell.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_read.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_read.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_strncpy.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_strncpy.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_strtol.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_strtol.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_write.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/safe_write.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/setup_environment.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/setup_environment.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/simplify_path.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/simplify_path.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/skip_whitespace.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/skip_whitespace.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/speed_table.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/speed_table.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/syscalls.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/syscalls.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/trim.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/trim.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/vdprintf.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/vdprintf.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/verror_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/verror_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/vfork_daemon_rexec.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/vfork_daemon_rexec.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/vherror_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/vherror_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/vperror_msg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/vperror_msg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/warn_ignoring_args.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/warn_ignoring_args.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/wfopen.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/wfopen.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/wfopen_input.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/wfopen_input.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xconnect.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xconnect.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xfuncs.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xfuncs.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetcwd.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetcwd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xgethostbyname.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xgethostbyname.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xgethostbyname2.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xgethostbyname2.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetlarg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetlarg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetularg.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xgetularg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xreadlink.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xreadlink.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libbb/xregcomp.o: /opt/gpl/labatt/userapps/opensource/busybox/libbb/xregcomp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/libpwdgrp/pwd_grp.o: /opt/gpl/labatt/userapps/opensource/busybox/libpwdgrp/pwd_grp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/shadow_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/shadow_.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/addgroup.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/addgroup.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/grp_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/adduser.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/adduser.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/adduser.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/addgroup.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/delgroup.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/delgroup.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/deluser.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/delline.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/delline.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/deluser.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/deluser.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/getty.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/getty.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/syslogd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/u/w/tmp.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/login.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/login.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/u/w/tmp.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/securetty.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/wheel/group.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/passwd.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/passwd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/su.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/su.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/u/w/tmp.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/sulogin.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/sulogin.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/loginutils/vlock.o: /opt/gpl/labatt/userapps/opensource/busybox/loginutils/vlock.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/adjtimex.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/adjtimex.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/crond.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/crond.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/crond/call/sendmail.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/crontab.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/crontab.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/dc.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/dc.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/devfsd.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/devfsd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/devfsd/modload.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/devfsd/verbose.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/debug.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/devfsd/fg/np.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/file.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/modules/devfs.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/hdparm.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/hdparm.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/get/identity.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hdparm/hdio/drive/reset.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/last.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/last.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/makedevs.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/makedevs.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/mt.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/mt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/rx.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/rx.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/strings.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/strings.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/sysinfo.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/sysinfo.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/time.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/time.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/miscutils/watchdog.o: /opt/gpl/labatt/userapps/opensource/busybox/miscutils/watchdog.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/modutils/insmod.o: /opt/gpl/labatt/userapps/opensource/busybox/modutils/insmod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/2/4/modules.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/2/6/modules.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/insmod/version/checking.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/use/list.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/list/archtype.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/use/single.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/use/plt/entries.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/use/got/entries.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/use/plt/list.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/got/entry/size.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/plt/entry/size.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/check/tainted/module.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/insmod/load/map.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/insmod/load/map/full.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/modutils/lsmod.o: /opt/gpl/labatt/userapps/opensource/busybox/modutils/lsmod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/check/tainted/module.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/query/module/interface.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/modutils/modprobe.o: /opt/gpl/labatt/userapps/opensource/busybox/modutils/modprobe.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/2/6/modules.h)
+/opt/gpl/labatt/userapps/opensource/busybox/modutils/rmmod.o: /opt/gpl/labatt/userapps/opensource/busybox/modutils/rmmod.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/2/6/modules.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/query/module/interface.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ip_parse_common_args.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ip_parse_common_args.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ipaddress.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ipaddress.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iplink.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iplink.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iproute.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iproute.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iptunnel.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/iptunnel.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/libnetlink.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/libnetlink.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ll_addr.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/ll_addr.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/utils.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/libiproute/utils.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/arping.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/arping.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ftpgetput.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ftpgetput.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ftpget.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ftpput.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/hostname.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/hostname.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/httpd.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/httpd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/lfs.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/basic/auth.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/cgi.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/auth/md5.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/httpd/setuid.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ifconfig.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ifconfig.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifconfig/slip.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifconfig/hw.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifconfig/status.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ifupdown.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ifupdown.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifupdown/mapping.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifupdown/ip.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifupdown/ipx.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ifupdown/ipv4.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/inetd.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/inetd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/inetd/support/biltin/chargen.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ip.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ip.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ip/address.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ip/route.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ip/link.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ip/tunnel.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ipaddr.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ipaddr.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ipcalc.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ipcalc.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipcalc/fancy.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/iplink.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/iplink.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/iproute.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/iproute.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/iptunnel.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/iptunnel.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/nameif.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/nameif.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/nc.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/nc.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/netstat.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/netstat.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/route.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/nslookup.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/nslookup.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ping.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ping.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/ping.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/ping6.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/ping6.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/ping6.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fancy/ping.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/route.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/route.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipv6.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/sendarp.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/sendarp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/telnet.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/telnet.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/telnet/ttype.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/telnet/autologin.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/autowidth.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/telnetd.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/telnetd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/login.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/telnetd/inetd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/devpts.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/tftp.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/tftp.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftp/blocksize.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftp/debug.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftp/get.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftp/put.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/tftpd.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/tftpd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftpd/get.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/tftpd/put.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/traceroute.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/traceroute.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/inet_common.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/traceroute/verbose.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/traceroute.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/traceroute/so/debug.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/vconfig.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/vconfig.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/networking/wget.o: /opt/gpl/labatt/userapps/opensource/busybox/networking/wget.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/wget/statusbar.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/wget/authentication.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/wget/ip6/literal.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/free.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/free.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/kill.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/kill.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/killall.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/pidof.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/pidof.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/ps.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/ps.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/renice.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/renice.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/sysctl.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/sysctl.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/top.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/top.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/use/termios.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/selinux.h)
+/opt/gpl/labatt/userapps/opensource/busybox/procps/uptime.o: /opt/gpl/labatt/userapps/opensource/busybox/procps/uptime.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/shell/ash.o: /opt/gpl/labatt/userapps/opensource/busybox/shell/ash.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/job/control.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/alias.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/optimize/for/size.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/math/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/cmdcmd.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/getopts.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/mail.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/math/support/64.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash/random/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/savehistory.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/tab/completion.h)
+/opt/gpl/labatt/userapps/opensource/busybox/shell/cmdedit.o: /opt/gpl/labatt/userapps/opensource/busybox/shell/cmdedit.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/../shell/cmdedit.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/../shell/cmdedit.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/tab/completion.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/username/completion.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/getusername/and/homedir.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/history.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/ash.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/savehistory.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/shell/hush.o: /opt/gpl/labatt/userapps/opensource/busybox/shell/hush.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/shell/lash.o: /opt/gpl/labatt/userapps/opensource/busybox/shell/lash.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/lash/pipe/n/redirects.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/lash/job/control.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/extra/quiet.h)
+/opt/gpl/labatt/userapps/opensource/busybox/shell/msh.o: /opt/gpl/labatt/userapps/opensource/busybox/shell/msh.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sh/standalone/shell.h)
+/opt/gpl/labatt/userapps/opensource/busybox/sysklogd/klogd.o: /opt/gpl/labatt/userapps/opensource/busybox/sysklogd/klogd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/sysklogd/logger.o: /opt/gpl/labatt/userapps/opensource/busybox/sysklogd/logger.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/syslogd.h)
+/opt/gpl/labatt/userapps/opensource/busybox/sysklogd/logread.o: /opt/gpl/labatt/userapps/opensource/busybox/sysklogd/logread.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/logread/reduced/locking.h)
+/opt/gpl/labatt/userapps/opensource/busybox/sysklogd/syslogd.o: /opt/gpl/labatt/userapps/opensource/busybox/sysklogd/syslogd.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/rotate/logfile.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/remote/log.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipc/syslog.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/ipc/syslog/buffer/size.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/dmesg.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/dmesg.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/fbset.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/fbset.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fbset/fancy.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fbset/readmode.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdflush.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdflush.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdformat.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdformat.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdisk.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/fdisk.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sun/label.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/sgi/label.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/aix/label.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/osf/label.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fdisk/writable.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fdisk/advanced.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/weird/partition/types.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/fdisk/blksize.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/freeramdisk.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/freeramdisk.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/fsck_minix.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/fsck_minix.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/minix2.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/getopt.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/getopt.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/hexdump.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/hexdump.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/dump.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/dump.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/hwclock.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/hwclock.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/hwclock/longoptions.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/losetup.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/losetup.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/mkfs_minix.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/mkfs_minix.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/minix2.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/mkswap.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/mkswap.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/more.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/more.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/use/termios.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/mount.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/mount.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/nfsmount.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mount/loop.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/nfsmount.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/nfsmount.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/pivot_root.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/pivot_root.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/rdate.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/rdate.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/swaponoff.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/swaponoff.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h)
+/opt/gpl/labatt/userapps/opensource/busybox/util-linux/umount.o: /opt/gpl/labatt/userapps/opensource/busybox/util-linux/umount.c \
+ /opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h $(dep_/opt/gpl/labatt/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mount/force.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mount/loop.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /opt/gpl/labatt/userapps/opensource/busybox/config/feature/clean/up.h)
